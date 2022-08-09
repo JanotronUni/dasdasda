@@ -11,7 +11,7 @@ namespace NumPad {
   export function GibNummernfolgeAus () {
     toAdd = "-1";
     while (toAdd[-1] != "#") {
-        pins.digitalWritePin(DigitalPin.P13, 1)
+        pins.digitalWritePin(DigitalPin.P13, 1);
         if (pins.digitalReadPin(DigitalPin.P0) == 1) {
             pins.digitalWritePin(DigitalPin.P13, 0);
             toAdd = "" + toAdd + "1";
@@ -119,6 +119,13 @@ namespace NumPad {
 }
 
 
-
+ basic.forever(() => {
+        if (true)) {
+            if (true) {
+                
+            }
+            basic.pause(50);
+        }
+    })
     
 }
