@@ -4,7 +4,7 @@
  */
 //% weight=10 color=#1d8045 icon="\uf0e7" block="NumPad"
 namespace NumPad {
-    let toAdd = ""
+    let toAdd = "";
 
     //% weight=90
     //% blockId="nfcEvent" block="Gib Nummernfolge aus"
@@ -120,12 +120,5 @@ namespace NumPad {
 
 
 
-    basic.forever(() => {
-        if (init && (myNFCevent != null)) {
-            if (detectedRFIDcard()) {
-                myNFCevent();
-            }
-            basic.pause(50);
-        }
-    })
+    )
 }
