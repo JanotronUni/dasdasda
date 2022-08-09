@@ -119,13 +119,6 @@ namespace NumPad {
 }
 
 
- basic.forever(() => {
-        if (true)) {
-            if (true) {
-                
-            }
-            basic.pause(50);
-        }
-    })
+ 
     
 }
